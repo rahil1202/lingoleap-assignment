@@ -54,3 +54,20 @@ int main() {
 
     return 0;
 }
+```
+
+# How it Works
+
+The code defines a function maxMoves that calculates the maximum number of moves in a given grid using dynamic programming.
+
+In the main function, two example grids (grid1 and grid2) are provided, and the maxMoves function is called to calculate the maximum moves for each grid.
+
+The maxMoves function initializes a 2D DP array to store the maximum moves from each cell in the grid. It starts by setting the first column's values to 1.
+
+The function then iterates through the grid to update the DP array based on the adjacent cells' values in the previous column.
+
+Finally, it finds and returns the maximum number of moves from the last column, which is the answer to the problem.
+
+In the main function, the results for both grids are printed to the console.
+
+Feel free to use this code to calculate the maximum moves in any given grid. Enjoy exploring and solving problems with dynamic programming! 🚀
